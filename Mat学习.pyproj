@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>81f5cc87-13ee-4d6b-9988-9ff4fe3625fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Code\6标注.py</StartupFile>
+    <StartupFile>Code2\3.5.3D数据.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Code2\2.3.Contours等高线.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code2\2.1.Scatter散点图.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code2\2.4.Image图片.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code2\3.5.3D数据.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Code\1第一课.py">
       <SubType>Code</SubType>
     </Compile>
@@ -39,10 +51,18 @@
     <Compile Include="Code\6标注.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Mat学习.py" />
+    <Compile Include="Code\7能见度处理.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Code\" />
+    <Folder Include="Code2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code2\2.2.Bar柱状图.py">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
