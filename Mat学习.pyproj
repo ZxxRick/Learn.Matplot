@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>81f5cc87-13ee-4d6b-9988-9ff4fe3625fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Mat学习.py</StartupFile>
+    <StartupFile>Code\6标注.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Code\1第一课.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code\2设置Figure.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code\3设置坐标轴.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code\4设置坐标轴2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code\5图例.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code\6标注.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Mat学习.py" />
   </ItemGroup>
   <ItemGroup>
